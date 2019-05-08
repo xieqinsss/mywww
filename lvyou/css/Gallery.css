@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 1920px) {
+	.w3ls-gallery-grids{
+	margin-top: 30px;
+}
+.gallery-grid{
+	position: relative;
+}
+.gallery-grid img {
+    width: 100%;
+    cursor: pointer;
+}
+.agileits-gallery-grids {
+    margin: 2em 0;
+}
+.yy{
+	margin-top: 60px;
+}
+.gallery{
+	padding-bottom: 70px;
+}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+.gallery{
+	padding: 2em 0;
+}
+.gallery-grids-left-subr{
+	float: left;
+	width: 50%;
+}
+.gallery-grid img{
+	width: 100%;
+	cursor: pointer;
+	margin-top: 20px;
+}
+}
